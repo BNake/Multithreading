@@ -17,3 +17,5 @@ easier to work with. GCD exposes five different queues: the main queue running o
 background queue with an even lower priority, which is I/O throttled. Furthermore, you can create custom queues, which can either be serial or concurrent queues.
 While custom queues are a powerful abstraction, all blocks you schedule on them will ultimately trickle down to one of the system’s global queues and its thread
 pool(s).
+
+https://github.com/BNazh/IOS-InterviewQuestions/blob/master/Main/12_multithreading_concurrency.md
