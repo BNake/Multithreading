@@ -1,6 +1,5 @@
+
 # Multithreading
-Multithreading, grand central dispatch.
-Multithreading
 
 Depending on your application, there may still be times when you need to create custom threads. If you do create custom threads,
 you should strive to create as few threads as possible yourself and you should use those threads only for specific tasks that cannot be 
@@ -8,7 +7,7 @@ implemented any other way. Threads are still a good way to implement code that m
 run their tasks as fast as possible but they do not address real time constraints. If you need more predictable behavior from code running in the background, 
 threads may still offer a better alternative.
 
-GCD
+# GCD
 
 With GCD you don’t interact with threads directly anymore. Instead you add blocks of code to queues, and GCD manages a thread pool behind the scenes. 
 GCD decides on which particular thread your code blocks are going to be executed on, and it manages these threads according to the available system resources.
